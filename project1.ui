@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>802</width>
+    <height>610</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>651</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>185</width>
+       <height>47</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 28pt &quot;微軟正黑體&quot;;</string>
+     </property>
+     <property name="text">
+      <string>猜數字遊戲</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>170</y>
+       <width>185</width>
+       <height>42</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton {
+background-color: rgb(220, 220, 220);
+border-radius: 10px;
+border: 2px solid #999999;
+padding: 6px 12px;
+font: 20pt &quot;微軟正黑體&quot;;
+}
+
+QPushButton:hover  {
+background-color: #8f8f8f;
+border-color: #5b5b5b;
+}
+
+QPushButton:pressed {
+background-color: #5e5e5e;
+}</string>
+     </property>
+     <property name="text">
+      <string>遊戲開始</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>191</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 28pt &quot;微軟正黑體&quot;;</string>
+     </property>
+     <property name="text">
+      <string>猜數字遊戲</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>100</y>
+       <width>185</width>
+       <height>42</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton {
+background-color: rgb(220, 220, 220);
+border-radius: 10px;
+border: 2px solid #999999;
+padding: 6px 12px;
+font: 20pt &quot;微軟正黑體&quot;;
+}
+
+QPushButton:hover  {
+background-color: #8f8f8f;
+border-color: #5b5b5b;
+}
+
+QPushButton:pressed {
+background-color: #5e5e5e;
+}</string>
+     </property>
+     <property name="text">
+      <string>確定</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>691</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 28pt &quot;微軟正黑體&quot;;
+color: rgb(255, 14, 14);</string>
+     </property>
+     <property name="text">
+      <string>請輸入1~100之中的數字</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
