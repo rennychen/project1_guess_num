@@ -18,6 +18,7 @@ def page_change():
     ui.stackedWidget.setCurrentIndex(1)
     global ans
     ans = random.randint(1,100)  # 產生 1 到 100 之間的整數
+    ui.lineEdit.setFocus()
 
 
 def guess_num():
