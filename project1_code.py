@@ -44,5 +44,9 @@ def guess_num():
 
 ui.pushButton_4.clicked.connect(page_change)
 ui.pushButton_3.clicked.connect(guess_num)
+quit_enter1 = QShortcut(QKeySequence("Return"), widget) #return = 主鍵盤的enter 47,48行 按下enter鍵等同於按確認鍵
+quit_enter1.activated.connect(guess_num)
+quit_enter2 = QShortcut(QKeySequence("Enter"), widget) #enter = 數字鍵盤的enter 47,48行 按下enter鍵等同於按確認鍵
+quit_enter2.activated.connect(guess_num)
 widget.show()
 app.exec_()
