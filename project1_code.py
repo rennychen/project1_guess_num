@@ -1,7 +1,7 @@
 from project1 import Ui_Dialog
 from PyQt5.QtCore import*
 from PyQt5.QtGui import*
-from PyQt5.QtWidgets import*
+from PyQt5.QtWidgets import QApplication, QWidget, QLineEdit, QLabel, QPushButton, QShortcut
 import sys
 import random #產生亂數
 
